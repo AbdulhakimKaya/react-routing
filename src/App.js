@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Users from "./pages/Dashboard/Users";
 import Home from "./pages/Dashboard/Home";
-import Contact from "./pages/Dashboard/Contact";
+import Index from "./pages/Dashboard/Contact";
 import Menu from "./components/Menu";
 import UserDetail from "./pages/Dashboard/UserDetail";
 import Login from "./pages/Auth/Login";
@@ -25,7 +25,7 @@ function App() {
             <Route index element={<Home/>}/>
             <Route path={"users"} element={<Users/>}/>
             <Route path={"users/:id"} element={<UserDetail/>}/>
-            <Route path={"contact"} element={<Contact/>}/>
+            <Route path={"contact"} element={<Index/>}/>
         </Route>
         <Route path={"auth"} element={<AuthLayout/>}>
             <Route index element={<Login/>}/>
