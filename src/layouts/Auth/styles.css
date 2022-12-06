@@ -1,0 +1,16 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.auth-menu {
+    display: flex;
+    column-gap: 15px;
+}
+
+.auth-menu a {
+    text-decoration: none;
+}
